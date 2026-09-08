@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-09-08T14:10:58.000Z",
+      "message": "feat: Calcular precio neto (solo x cantidad y precio)",
+      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/HEAD"
+    },
+    "stats": {
+      "total": 54,
+      "additions": 33,
+      "deletions": 21,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]

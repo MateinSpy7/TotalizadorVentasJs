@@ -1,9 +1,9 @@
-describe("Sumador", () => {
-  it("Shows the amount of the addition to the user", () => {
+describe("Totalizador", () => {
+  it("Shows the total to the user", () => {
     cy.visit("/");
-    cy.get("#primer-numero").type(4);
-    cy.get("#segundo-numero").type(5);
-    cy.get("#sumar-button").click();
-    cy.get("#resultado-div").should("contain", "9");
+    cy.get("#cantidad").type(4);
+    cy.get("#precio-unitario").type(5);
+    cy.get("#totalizar-button").click();
+    cy.get("#resultado-div").should("contain", "20");
   });
 });
