@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "99369f55c72717bd62ea7456000316e18eab995f",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-09-08T14:10:58.000Z",
       "message": "feat: Calcular precio neto (solo x cantidad y precio)",
-      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/HEAD"
+      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/99369f55c72717bd62ea7456000316e18eab995f"
     },
     "stats": {
       "total": 54,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-09-09T03:57:18.000Z",
+      "message": "feat: Ver total con impuesto para TX y NV",
+      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 22,
+      "deletions": 3,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }

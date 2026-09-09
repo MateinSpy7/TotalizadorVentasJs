@@ -32,9 +32,39 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "99369f55c72717bd62ea7456000316e18eab995f",
     "commitName": "feat: Calcular precio neto (solo x cantidad y precio)",
     "commitTimestamp": 1788876659379,
     "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1788877031264,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1788926024756,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1788926159740,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Ver total con impuesto para TX y NV",
+    "commitTimestamp": 1788926241347,
+    "testId": 1
   }
 ]
