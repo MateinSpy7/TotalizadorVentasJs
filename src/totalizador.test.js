@@ -1,14 +1,14 @@
 import totalizador from "./totalizador.js";
 
 describe("Totalizador", () => {
-  it("deberia calcular el precio neto", () => {
+  /*it("deberia calcular el precio neto", () => {
     expect(totalizador(3, 2)).toEqual(6);
   });
 
   it("deberia calcular el precio neto", () => {
     expect(totalizador(20, 15)).toEqual(300);
   });
-
+*/
   it("deberia calcular el precio total con el impuesto aplicado para TX (6.25%)", () => {
     expect(totalizador(20, 3, "TX")).toEqual(63.75);
   });
@@ -43,6 +43,10 @@ describe("Totalizador", () => {
 
   it("deberia aplicar un 10% de descuento y luego el impuesto para ordenes >= 10000 en TX", () => {
     expect(totalizador(5000, 2, "TX")).toEqual(9562.5);
+  });
+
+  it("deberia usar CA por defecto si no se envia el codigo de estado", () => {
+    expect(totalizador(100, 1)).toEqual(108.25);
   });
 
 });

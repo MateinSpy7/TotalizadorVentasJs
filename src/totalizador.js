@@ -7,7 +7,7 @@ function obtenerTasaDescuento(neto) {
   return 0;
 }
 
-function totalizador(precioUnitario, cantidad, estado = "") {
+function totalizador(precioUnitario, cantidad, estado = "CA") {
   const neto = precioUnitario * cantidad;
   
   const tasaDescuento = obtenerTasaDescuento(neto);

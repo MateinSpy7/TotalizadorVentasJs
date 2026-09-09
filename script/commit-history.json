@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5dacd1216f671e2213ffc2e215797b063ee3b9c4",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-09-09T04:13:31.000Z",
       "message": "feat: Ver descuento x cantidad",
-      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/HEAD"
+      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/5dacd1216f671e2213ffc2e215797b063ee3b9c4"
     },
     "stats": {
       "total": 12,
@@ -91,6 +91,25 @@
     },
     "coverage": 94.74,
     "test_count": 12,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-09-09T04:19:40.000Z",
+      "message": "feat: Caso base (CA) y eliminacion de test ya obsoletos",
+      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 7,
+      "deletions": 3,
+      "date": "2026-09-09"
+    },
+    "coverage": 94.74,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }

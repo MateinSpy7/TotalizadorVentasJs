@@ -112,9 +112,39 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5dacd1216f671e2213ffc2e215797b063ee3b9c4",
     "commitName": "feat: Ver descuento x cantidad",
     "commitTimestamp": 1788927213651,
     "testId": 4
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 2,
+    "numTotalTests": 13,
+    "timestamp": 1788927353615,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 2,
+    "numTotalTests": 13,
+    "timestamp": 1788927500984,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1788927524104,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Caso base (CA) y eliminacion de test ya obsoletos",
+    "commitTimestamp": 1788927582870,
+    "testId": 5
   }
 ]
