@@ -198,9 +198,31 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5c4242400a0e23b73961abc9de0ecafd1731adc6",
     "commitName": "feat: errror si estados no validos",
     "commitTimestamp": 1788928241912,
     "testId": 9
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1788928479257,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1788928586472,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: cancelar compra",
+    "commitTimestamp": 1788928620892,
+    "testId": 10
   }
 ]

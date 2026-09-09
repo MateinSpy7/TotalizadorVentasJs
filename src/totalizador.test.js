@@ -1,4 +1,4 @@
-import totalizador from "./totalizador.js";
+import totalizador, { cancelarCompra } from "./totalizador.js";
 
 describe("Totalizador", () => {
   /*it("deberia calcular el precio neto", () => {
@@ -73,5 +73,12 @@ describe("Totalizador", () => {
 
   it("deberia lanzar un error si el codigo de estado no existe en la lista", () => {
     expect(() => totalizador(10, -1, "XX")).toThrow("Cantidad invalida");
+  });
+});
+
+
+describe("Totalizador - Operaciones Adicionales", () => {
+  it("deberia devolver 0 al cancelar la compra", () => {
+    expect(cancelarCompra()).toEqual(0);
   });
 });

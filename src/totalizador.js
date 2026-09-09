@@ -19,7 +19,7 @@ function totalizador(precioUnitario, cantidad, estado = "CA") {
   const netoConDescuento = neto - (neto * tasaDescuento);
 
   const tasasImpuesto = { UT: 0.0665, NV: 0.08, TX: 0.0625, AL: 0.04, CA: 0.0825 };
-  
+
   if (!tasasImpuesto.hasOwnProperty(estado)) {
     throw new Error("Código de estado inválido");
   }
@@ -32,3 +32,9 @@ function totalizador(precioUnitario, cantidad, estado = "CA") {
 }
 
 export default totalizador;
+
+function cancelarCompra() {
+  return 0;
+}
+
+export { cancelarCompra };
