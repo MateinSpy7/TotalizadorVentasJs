@@ -228,12 +228,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e47bbd40e2e9162c69e1af9939182be07f8f560e",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-09-09T04:48:01.000Z",
       "message": "feat: Cantidad solo puede ser entero",
-      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/HEAD"
+      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/e47bbd40e2e9162c69e1af9939182be07f8f560e"
     },
     "stats": {
       "total": 16,
@@ -243,6 +243,25 @@
     },
     "coverage": 92.86,
     "test_count": 21,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-09-09T13:52:37.000Z",
+      "message": "feat: Confirmar compra",
+      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 17,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 93.94,
+    "test_count": 22,
     "failed_tests": 0,
     "conclusion": "success"
   }

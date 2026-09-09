@@ -312,9 +312,31 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e47bbd40e2e9162c69e1af9939182be07f8f560e",
     "commitName": "feat: Cantidad solo puede ser entero",
     "commitTimestamp": 1788929283632,
     "testId": 12
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1788961680380,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1788961909638,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Confirmar compra",
+    "commitTimestamp": 1788961960421,
+    "testId": 13
   }
 ]

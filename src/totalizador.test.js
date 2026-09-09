@@ -1,4 +1,4 @@
-import totalizador, { cancelarCompra } from "./totalizador.js";
+import totalizador, { cancelarCompra , confirmarCompra } from "./totalizador.js";
 
 describe("Totalizador", () => {
   /*it("deberia calcular el precio neto", () => {
@@ -88,6 +88,10 @@ describe("Totalizador", () => {
     expect(() => totalizador(10.2, 15.3)).toThrow("Cantidad invalida");
   });
 
+  it("deberia devolver un mensaje con el detalle de la compra al confirmar", () => {
+    const mensaje = confirmarCompra(1000, 1, "TX");
+    expect(mensaje).toEqual("Compra confirmada. Neto: bs1000, Descuento: bs30, Impuesto: bs60.625, Total: bs1030.625");
+  });
 
 });
 

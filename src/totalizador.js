@@ -46,3 +46,15 @@ function cancelarCompra() {
 }
 
 export { cancelarCompra };
+
+export function confirmarCompra(precioUnitario, cantidad, estado = "CA") {
+  const precioTotal = totalizador(precioUnitario, cantidad, estado); 
+    const neto = precioUnitario * cantidad;
+  const descuento = neto * obtenerTasaDescuento(neto);
+  
+  const impuesto = precioTotal - (neto - descuento); 
+
+  return `Compra confirmada. Neto: bs${neto}, Descuento: bs${descuento}, Impuesto: bs${impuesto}, Total: bs${precioTotal}`;
+}
+
+
