@@ -242,9 +242,79 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f38c8acbc7bdb931029df1b8fee51f3d07241cf0",
     "commitName": "feat: Error si precio o cant son string o null",
     "commitTimestamp": 1788928861863,
     "testId": 11
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1788928949362,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1788928979416,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1788928992520,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 0,
+    "numTotalTests": 20,
+    "timestamp": 1788929014053,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 1,
+    "numTotalTests": 21,
+    "timestamp": 1788929057263,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1788929208890,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 1,
+    "numTotalTests": 21,
+    "timestamp": 1788929233473,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1788929253427,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Cantidad solo puede ser entero",
+    "commitTimestamp": 1788929283632,
+    "testId": 12
   }
 ]

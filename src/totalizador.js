@@ -13,8 +13,12 @@ function totalizador(precioUnitario, cantidad, estado = "CA") {
     throw new Error("Información errónea en precio o cantidad");
   }
 
-  if (cantidad <= 0) {
+  if (!Number.isInteger(cantidad) || cantidad <= 0) {
     throw new Error("Cantidad invalida");
+  }
+
+  if (precioUnitario <= 0) {
+    throw new Error("Precio invalido");
   }
 
   const neto = precioUnitario * cantidad;

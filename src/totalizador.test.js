@@ -79,6 +79,16 @@ describe("Totalizador", () => {
     expect(() => totalizador("abc", 1)).toThrow("Información errónea en precio o cantidad");
     expect(() => totalizador(10, null)).toThrow("Información errónea en precio o cantidad");
   });
+
+  it("deberia lanzar un error si el precio o cantidad no son numeros validos", () => {
+    expect(() => totalizador(10.2, "lolo chicken")).toThrow("Información errónea en precio o cantidad");
+  });
+
+  it("deberia lanzar un error si el precio o cantidad no son numeros validos", () => {
+    expect(() => totalizador(10.2, 15.3)).toThrow("Cantidad invalida");
+  });
+
+
 });
 
 

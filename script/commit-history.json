@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f38c8acbc7bdb931029df1b8fee51f3d07241cf0",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-09-09T04:40:59.000Z",
       "message": "feat: Error si precio o cant son string o null",
-      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/HEAD"
+      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/f38c8acbc7bdb931029df1b8fee51f3d07241cf0"
     },
     "stats": {
       "total": 9,
@@ -224,6 +224,25 @@
     },
     "coverage": 96.15,
     "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-09-09T04:48:01.000Z",
+      "message": "feat: Cantidad solo puede ser entero",
+      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 15,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 92.86,
+    "test_count": 21,
     "failed_tests": 0,
     "conclusion": "success"
   }
