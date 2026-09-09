@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e6c791d56d72e598b845d25a5ba92614e5df4316",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-09-09T03:57:18.000Z",
       "message": "feat: Ver total con impuesto para TX y NV",
-      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/HEAD"
+      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/e6c791d56d72e598b845d25a5ba92614e5df4316"
     },
     "stats": {
       "total": 25,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-09-09T04:04:12.000Z",
+      "message": "feat: total con impuesto para todos los estados",
+      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 14,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }

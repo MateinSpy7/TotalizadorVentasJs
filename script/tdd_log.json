@@ -62,9 +62,31 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e6c791d56d72e598b845d25a5ba92614e5df4316",
     "commitName": "feat: Ver total con impuesto para TX y NV",
     "commitTimestamp": 1788926241347,
     "testId": 1
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1788926516558,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1788926614030,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: total con impuesto para todos los estados",
+    "commitTimestamp": 1788926655271,
+    "testId": 2
   }
 ]
