@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "eb1e8c47936f4f4ce8436113a56abf8dde397e7e",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-09-09T04:04:12.000Z",
       "message": "feat: total con impuesto para todos los estados",
-      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/HEAD"
+      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/eb1e8c47936f4f4ce8436113a56abf8dde397e7e"
     },
     "stats": {
       "total": 15,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-09-09T04:08:33.000Z",
+      "message": "feat: Calcular con descuento (prime test)",
+      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/HEAD"
+    },
+    "stats": {
+      "total": 22,
+      "additions": 19,
+      "deletions": 3,
+      "date": "2026-09-09"
+    },
+    "coverage": 78.95,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }

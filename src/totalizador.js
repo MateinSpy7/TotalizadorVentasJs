@@ -1,11 +1,24 @@
+function obtenerTasaDescuento(neto) {
+  if (neto >= 30000) return 0.15;
+  if (neto >= 10000) return 0.10;
+  if (neto >= 7000) return 0.07;
+  if (neto >= 3000) return 0.05;
+  if (neto >= 1000) return 0.03;
+  return 0;
+}
+
 function totalizador(precioUnitario, cantidad, estado = "") {
   const neto = precioUnitario * cantidad;
+  
+  const tasaDescuento = obtenerTasaDescuento(neto);
+  const netoConDescuento = neto - (neto * tasaDescuento);
+
   const tasasImpuesto = { UT: 0.0665, NV: 0.08, TX: 0.0625, AL: 0.04, CA: 0.0825 };
+  const tasaImpuesto = tasasImpuesto[estado] || 0;
   
-  const tasa = tasasImpuesto[estado] || 0;
-  const impuesto = neto * tasa;
+  const impuesto = netoConDescuento * tasaImpuesto;
   
-  return neto + impuesto;
+  return netoConDescuento + impuesto;
 }
 
 export default totalizador;

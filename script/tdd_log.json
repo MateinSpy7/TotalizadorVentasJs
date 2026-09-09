@@ -84,9 +84,23 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "eb1e8c47936f4f4ce8436113a56abf8dde397e7e",
     "commitName": "feat: total con impuesto para todos los estados",
     "commitTimestamp": 1788926655271,
     "testId": 2
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1788926854771,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Calcular con descuento (prime test)",
+    "commitTimestamp": 1788926916012,
+    "testId": 3
   }
 ]

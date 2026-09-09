@@ -29,5 +29,8 @@ describe("Totalizador", () => {
     expect(totalizador(10, 3, "NV")).toEqual(32.4);
   });
 
+  it("deberia aplicar un 3% de descuento y luego el impuesto para ordenes >= 1000 en TX", () => {
+    expect(totalizador(1000, 1, "TX")).toEqual(1030.625);
+  });
 
 });
