@@ -170,9 +170,23 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "59f6810be275930c95f327bf3a1e2f4fd993b3aa",
     "commitName": "feat: Error para cantidades negativas",
     "commitTimestamp": 1788927886132,
     "testId": 7
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1788928069495,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: error cuando no estado valido",
+    "commitTimestamp": 1788928102498,
+    "testId": 8
   }
 ]

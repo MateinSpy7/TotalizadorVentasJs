@@ -62,4 +62,8 @@ describe("Totalizador", () => {
   it("deberia lanzar un error si la cantidad es cero o negativa", () => {
     expect(() => totalizador(30, -20, "TX")).toThrow("Cantidad invalida");
   });
+
+  it("deberia lanzar un error si el codigo de estado no existe en la lista", () => {
+    expect(() => totalizador(10, 1, "XX")).toThrow("Código de estado inválido");
+  });
 });

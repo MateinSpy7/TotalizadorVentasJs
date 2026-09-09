@@ -12,12 +12,18 @@ function totalizador(precioUnitario, cantidad, estado = "CA") {
   if (cantidad <= 0) {
     throw new Error("Cantidad invalida");
   }
+
   const neto = precioUnitario * cantidad;
   
   const tasaDescuento = obtenerTasaDescuento(neto);
   const netoConDescuento = neto - (neto * tasaDescuento);
 
   const tasasImpuesto = { UT: 0.0665, NV: 0.08, TX: 0.0625, AL: 0.04, CA: 0.0825 };
+  
+  if (!tasasImpuesto.hasOwnProperty(estado)) {
+    throw new Error("Código de estado inválido");
+  }
+
   const tasaImpuesto = tasasImpuesto[estado] || 0;
   
   const impuesto = netoConDescuento * tasaImpuesto;

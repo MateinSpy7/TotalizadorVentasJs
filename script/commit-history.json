@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "59f6810be275930c95f327bf3a1e2f4fd993b3aa",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-09-09T04:24:43.000Z",
       "message": "feat: Error para cantidades negativas",
-      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/HEAD"
+      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/59f6810be275930c95f327bf3a1e2f4fd993b3aa"
     },
     "stats": {
       "total": 10,
@@ -148,6 +148,25 @@
     },
     "coverage": 95.24,
     "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-09-09T04:28:19.000Z",
+      "message": "feat: error cuando no estado valido",
+      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 95.65,
+    "test_count": 15,
     "failed_tests": 0,
     "conclusion": "success"
   }
