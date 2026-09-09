@@ -98,9 +98,23 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "40808f2cab082ef024cd85eaa0d0a13983586945",
     "commitName": "feat: Calcular con descuento (prime test)",
     "commitTimestamp": 1788926916012,
     "testId": 3
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1788927177369,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Ver descuento x cantidad",
+    "commitTimestamp": 1788927213651,
+    "testId": 4
   }
 ]
