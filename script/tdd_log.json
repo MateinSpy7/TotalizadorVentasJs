@@ -334,9 +334,15 @@
     "testId": 13
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d634eae7333d58aa10c63584bbbab6656f59d7ea",
     "commitName": "feat: Confirmar compra",
     "commitTimestamp": 1788961960421,
     "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: interfaz grafica (html y scss)",
+    "commitTimestamp": 1788968620080,
+    "testId": 14
   }
 ]

@@ -1,18 +1,46 @@
 <!DOCTYPE html>
-<html xml:lang="es">
+<html lang="es">
   <head>
-    <title>Totalizador</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Totalizador de Ventas</title>
+    <link rel="stylesheet" href="./estilos.css"> 
   </head>
   <body>
-    <h1>Totalizador</h1>
-    <form id="totalizar-form">
-      <label for="cantidad">Cantidad de item:</label>
-      <input type="number" id="cantidad" />
-      <label for="precio-unitario">Precio unitario:</label>
-      <input type="number" id="precio-unitario" />
-      <input type="submit" value="Totalizar" id="totalizar-button" />
-    </form>
-    <div id="resultado-div"></div>
+    <div class="container">
+      <h1>Totalizador de Ventas</h1>
+      
+      <form id="totalizar-form">
+        <div class="form-group">
+          <label for="cantidad">Cantidad de items:</label>
+          <input type="number" id="cantidad" min="1" step="1" placeholder="Ej: 5" required />
+        </div>
+        
+        <div class="form-group">
+          <label for="precio-unitario">Precio unitario (bs):</label>
+          <input type="number" id="precio-unitario" min="0.01" step="0.01" placeholder="Ej: 15.50" required />
+        </div>
+
+        <div class="form-group">
+          <label for="estado">Estado (Impuesto):</label>
+          <select id="estado">
+            <option value="CA" selected>California (CA) - 8.25%</option>
+            <option value="TX">Texas (TX) - 6.25%</option>
+            <option value="NV">Nevada (NV) - 8.00%</option>
+            <option value="UT">Utah (UT) - 6.65%</option>
+            <option value="AL">Alabama (AL) - 4.00%</option>
+          </select>
+        </div>
+
+        <div class="button-group">
+          <input type="submit" value="Confirmar Compra" id="totalizar-button" class="btn btn-primary" />
+          <button type="button" id="cancelar-button" class="btn btn-secondary">Cancelar</button>
+        </div>
+      </form>
+
+      <!-- Aquí se mostrarán los mensajes de éxito o error -->
+      <div id="resultado-div" class="hidden"></div>
+    </div>
 
     <script type="module" src="./src/presenter.js"></script>
   </body>
