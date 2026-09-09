@@ -220,9 +220,31 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0d9ad9d16a6c0f3db08a54cc7e887697f9d22200",
     "commitName": "feat: cancelar compra",
     "commitTimestamp": 1788928620892,
     "testId": 10
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 4,
+    "numTotalTests": 19,
+    "timestamp": 1788928785411,
+    "success": false,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1788928816667,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Error si precio o cant son string o null",
+    "commitTimestamp": 1788928861863,
+    "testId": 11
   }
 ]

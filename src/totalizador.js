@@ -9,6 +9,10 @@ function obtenerTasaDescuento(neto) {
 
 function totalizador(precioUnitario, cantidad, estado = "CA") {
 
+  if (typeof precioUnitario !== "number" || typeof cantidad !== "number" || isNaN(precioUnitario) || isNaN(cantidad)) {
+    throw new Error("Información errónea en precio o cantidad");
+  }
+
   if (cantidad <= 0) {
     throw new Error("Cantidad invalida");
   }

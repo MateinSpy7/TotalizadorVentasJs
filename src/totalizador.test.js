@@ -74,6 +74,11 @@ describe("Totalizador", () => {
   it("deberia lanzar un error si el codigo de estado no existe en la lista", () => {
     expect(() => totalizador(10, -1, "XX")).toThrow("Cantidad invalida");
   });
+
+  it("deberia lanzar un error si el precio o cantidad no son numeros validos", () => {
+    expect(() => totalizador("abc", 1)).toThrow("Información errónea en precio o cantidad");
+    expect(() => totalizador(10, null)).toThrow("Información errónea en precio o cantidad");
+  });
 });
 
 
