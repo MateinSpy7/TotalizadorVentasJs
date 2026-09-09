@@ -52,4 +52,14 @@ describe("Totalizador", () => {
   it("deberia lanzar un error si la cantidad es cero o negativa", () => {
     expect(() => totalizador(10, 0)).toThrow("Cantidad invalida");
   });
+
+  
+  it("deberia lanzar un error si la cantidad es cero o negativa", () => {
+    expect(() => totalizador(10, -5)).toThrow("Cantidad invalida");
+  });
+
+  
+  it("deberia lanzar un error si la cantidad es cero o negativa", () => {
+    expect(() => totalizador(30, -20, "TX")).toThrow("Cantidad invalida");
+  });
 });

@@ -156,9 +156,23 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "dc7f16c3137c34f501ceed78f42fd4f7d261da76",
     "commitName": "feat: Error si cant cero",
     "commitTimestamp": 1788927771996,
     "testId": 6
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1788927845641,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Error para cantidades negativas",
+    "commitTimestamp": 1788927886132,
+    "testId": 7
   }
 ]
