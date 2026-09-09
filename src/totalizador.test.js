@@ -66,4 +66,12 @@ describe("Totalizador", () => {
   it("deberia lanzar un error si el codigo de estado no existe en la lista", () => {
     expect(() => totalizador(10, 1, "XX")).toThrow("Código de estado inválido");
   });
+
+  it("deberia lanzar un error si el codigo de estado no existe en la lista", () => {
+    expect(() => totalizador(10, 1, "CB")).toThrow("Código de estado inválido");
+  });
+
+  it("deberia lanzar un error si el codigo de estado no existe en la lista", () => {
+    expect(() => totalizador(10, -1, "XX")).toThrow("Cantidad invalida");
+  });
 });

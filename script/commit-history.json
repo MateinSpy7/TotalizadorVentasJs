@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1ecb641effed24a0ebcd3dc8a9d74e03e6a9709d",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-09-09T04:28:19.000Z",
       "message": "feat: error cuando no estado valido",
-      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/HEAD"
+      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/1ecb641effed24a0ebcd3dc8a9d74e03e6a9709d"
     },
     "stats": {
       "total": 10,
@@ -167,6 +167,25 @@
     },
     "coverage": 95.65,
     "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-09-09T04:30:39.000Z",
+      "message": "feat: errror si estados no validos",
+      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 95.65,
+    "test_count": 17,
     "failed_tests": 0,
     "conclusion": "success"
   }

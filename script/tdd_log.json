@@ -184,9 +184,23 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1ecb641effed24a0ebcd3dc8a9d74e03e6a9709d",
     "commitName": "feat: error cuando no estado valido",
     "commitTimestamp": 1788928102498,
     "testId": 8
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1788928201116,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: errror si estados no validos",
+    "commitTimestamp": 1788928241912,
+    "testId": 9
   }
 ]
