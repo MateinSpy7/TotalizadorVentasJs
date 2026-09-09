@@ -49,4 +49,7 @@ describe("Totalizador", () => {
     expect(totalizador(100, 1)).toEqual(108.25);
   });
 
+  it("deberia lanzar un error si la cantidad es cero o negativa", () => {
+    expect(() => totalizador(10, 0)).toThrow("Cantidad invalida");
+  });
 });

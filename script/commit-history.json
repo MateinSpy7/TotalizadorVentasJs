@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "52517b03a227ca68805b76c1ce252881c9a229c9",
     "author": "Mateo Quintanilla",
     "commit": {
       "date": "2026-09-09T04:19:40.000Z",
       "message": "feat: Caso base (CA) y eliminacion de test ya obsoletos",
-      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/HEAD"
+      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/52517b03a227ca68805b76c1ce252881c9a229c9"
     },
     "stats": {
       "total": 10,
@@ -110,6 +110,25 @@
     },
     "coverage": 94.74,
     "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mateo Quintanilla",
+    "commit": {
+      "date": "2026-09-09T04:22:49.000Z",
+      "message": "feat: Error si cant cero",
+      "url": "https://github.com/MateinSpy7/TotalizadorVentasJs/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 95.24,
+    "test_count": 12,
     "failed_tests": 0,
     "conclusion": "success"
   }

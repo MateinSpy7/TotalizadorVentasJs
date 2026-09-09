@@ -142,9 +142,23 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "52517b03a227ca68805b76c1ce252881c9a229c9",
     "commitName": "feat: Caso base (CA) y eliminacion de test ya obsoletos",
     "commitTimestamp": 1788927582870,
     "testId": 5
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1788927731293,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: Error si cant cero",
+    "commitTimestamp": 1788927771996,
+    "testId": 6
   }
 ]
